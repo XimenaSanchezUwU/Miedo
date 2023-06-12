@@ -17,10 +17,10 @@ function draw() {
   for (let i = 0; 15 > i; i++){
   noStroke();
   textSize(90);
-  fill(255, 20, 20)
-  text('Eres un adulto', 340, 58);
+  fill(255, 250, 236)
+  text('Eres un adulto', 340, 258);
   textSize(105);
   fill(191*i, 20*i, 0*i);
-  text('No deberias tener miedo', 100, 450+i*35);
+  text('No deberias tener miedo', 100, 450+i*45);
   }
 }
